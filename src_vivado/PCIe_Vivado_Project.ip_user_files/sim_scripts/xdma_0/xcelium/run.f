@@ -1,0 +1,104 @@
+-makelib xcelium_lib/xilinx_vip -sv \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/xilinx_vip/hdl/axi_vip_axi4pc.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/xilinx_vip/hdl/xil_common_vip_pkg.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/xilinx_vip/hdl/axi_vip_pkg.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/xilinx_vip/hdl/axi4stream_vip_if.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/xilinx_vip/hdl/axi_vip_if.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/xilinx_vip/hdl/clk_vip_if.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/xilinx_vip/hdl/rst_vip_if.sv" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib -sv \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+-endlib
+-makelib xcelium_lib/xpm \
+  "/home/chenxun/Software/Vivado/Vivado/2018.3/data/ip/xpm/xpm_VCOMP.vhd" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_clock.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_eq.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_drp.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_rate.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_reset.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_sync.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtp_pipe_rate.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtp_pipe_drp.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtp_pipe_reset.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_user.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pipe_wrapper.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_qpll_drp.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_qpll_reset.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_qpll_wrapper.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_rxeq_scan.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_top.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_core_top.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_rx_null_gen.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_rx_pipeline.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_rx.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_top.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_tx_pipeline.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_tx_thrtl_ctl.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_axi_basic_tx.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_7x.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_bram_7x.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_bram_top_7x.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_brams_7x.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_pipe_lane.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_pipe_misc.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie_pipe_pipeline.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gt_top.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gt_common.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtp_cpllpd_ovrd.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gtx_cpllpd_ovrd.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gt_rx_valid_filter_7x.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_gt_wrapper.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/source/xdma_0_pcie2_ip_pcie2_top.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_0/sim/xdma_0_pcie2_ip.v" \
+-endlib
+-makelib xcelium_lib/blk_mem_gen_v8_4_2 \
+  "../../../ipstatic/simulation/blk_mem_gen_v8_4.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_1/sim/xdma_v4_1_2_blk_mem_64_reg_be.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_2/sim/xdma_v4_1_2_blk_mem_64_noreg_be.v" \
+-endlib
+-makelib xcelium_lib/fifo_generator_v13_1_4 \
+  "../../../ipstatic/simulation/fifo_generator_vlog_beh.v" \
+-endlib
+-makelib xcelium_lib/fifo_generator_v13_1_4 \
+  "../../../ipstatic/hdl/fifo_generator_v13_1_rfs.vhd" \
+-endlib
+-makelib xcelium_lib/fifo_generator_v13_1_4 \
+  "../../../ipstatic/hdl/fifo_generator_v13_1_rfs.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_3/sim/pcie2_fifo_generator_dma_cpl.v" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/ip_4/sim/pcie2_fifo_generator_tgt_brdg.v" \
+-endlib
+-makelib xcelium_lib/xdma_v4_1_2 -sv \
+  "../../../ipstatic/hdl/xdma_v4_1_vl_rfs.sv" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib -sv \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_dma_cpl.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_dma_req.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_rx_destraddler.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_rx_demux.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_tgt_cpl.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_tgt_req.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_tx_mux.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_axi_stream_intf.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_cfg_sideband.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_pcie2_to_pcie3_wrapper.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_dma_bram_wrap.sv" \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/xdma_v4_1/hdl/verilog/xdma_0_core_top.sv" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../../PCIe_Vivado_Project.srcs/sources_1/ip/xdma_0/sim/xdma_0.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  glbl.v
+-endlib
+

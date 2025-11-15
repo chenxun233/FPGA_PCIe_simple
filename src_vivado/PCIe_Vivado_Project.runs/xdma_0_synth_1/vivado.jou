@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Oct 13 20:41:02 2025
+# Process ID: 31260
+# Current directory: /home/chenxun/Documents/Project/FPGA_Network/src_vivado/PCIe_Vivado_Project.runs/xdma_0_synth_1
+# Command line: vivado -log xdma_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xdma_0.tcl
+# Log file: /home/chenxun/Documents/Project/FPGA_Network/src_vivado/PCIe_Vivado_Project.runs/xdma_0_synth_1/xdma_0.vds
+# Journal file: /home/chenxun/Documents/Project/FPGA_Network/src_vivado/PCIe_Vivado_Project.runs/xdma_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source xdma_0.tcl -notrace

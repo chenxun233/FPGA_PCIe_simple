@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPCIe_transfer.a CMakeFiles/PCIe_transfer.dir/src_c/src/PCIe_func.c.o
+/usr/bin/ranlib libPCIe_transfer.a

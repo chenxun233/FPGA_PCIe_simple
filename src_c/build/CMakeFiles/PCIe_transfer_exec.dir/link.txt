@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/PCIe_transfer_exec.dir/src_c/src/main.c.o -o PCIe_transfer_exec  libPCIe_transfer.a 

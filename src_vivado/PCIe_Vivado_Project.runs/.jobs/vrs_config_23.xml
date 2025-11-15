@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="xdma_0_synth_1" LaunchDir="/home/chenxun/Documents/Project/FPGA_Network/src_vivado/PCIe_Vivado_Project.runs/xdma_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/chenxun/Documents/Project/FPGA_Network/src_vivado/PCIe_Vivado_Project.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="xdma_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/chenxun/Documents/Project/FPGA_Network/src_vivado/PCIe_Vivado_Project.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="xdma_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
